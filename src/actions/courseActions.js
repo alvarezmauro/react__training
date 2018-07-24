@@ -10,7 +10,7 @@ export function updateCourseSuccess(course) {
   return {type: types.UPDATE_COURSE_SUCCESS, course};
 }
 
-export function createdCourseSuccess(course) {
+export function createdCourseSuccess(course){
   return {type: types.CREATE_COURSE_SUCCESS, course};
 }
 
